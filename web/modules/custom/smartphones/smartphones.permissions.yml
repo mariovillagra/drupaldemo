@@ -1,0 +1,30 @@
+add smartphones entity entities:
+  title: 'Create new Smartphones entity entities'
+
+administer smartphones entity entities:
+  title: 'Administer Smartphones entity entities'
+  description: 'Allow to access the administration form to configure Smartphones entity entities.'
+  restrict access: true
+
+delete smartphones entity entities:
+  title: 'Delete Smartphones entity entities'
+
+edit smartphones entity entities:
+  title: 'Edit Smartphones entity entities'
+
+view published smartphones entity entities:
+  title: 'View published Smartphones entity entities'
+
+view unpublished smartphones entity entities:
+  title: 'View unpublished Smartphones entity entities'
+
+view all smartphones entity revisions:
+  title: 'View all Smartphones entity revisions'
+
+revert all smartphones entity revisions:
+  title: 'Revert all Smartphones entity revisions'
+  description: 'Role requires permission <em>view Smartphones entity revisions</em> and <em>edit rights</em> for smartphones entity entities in question or <em>administer smartphones entity entities</em>.'
+
+delete all smartphones entity revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Smartphones entity revisions</em> and <em>delete rights</em> for smartphones entity entities in question or <em>administer smartphones entity entities</em>.'

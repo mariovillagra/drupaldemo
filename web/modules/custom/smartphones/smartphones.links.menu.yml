@@ -1,0 +1,17 @@
+
+# Smartphones entity menu items definition
+entity.smartphones_entity.collection:
+  title: 'Smartphones entity list'
+  route_name: entity.smartphones_entity.collection
+  description: 'List Smartphones entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+
+# Smartphones entity type menu items definition
+entity.smartphones_entity_type.collection:
+  title: 'Smartphones entity type'
+  route_name: entity.smartphones_entity_type.collection
+  description: 'List Smartphones entity type (bundles)'
+  parent: system.admin_structure
+  weight: 99

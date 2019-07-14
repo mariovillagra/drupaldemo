@@ -1,0 +1,22 @@
+# Smartphones entity routing definition
+
+entity.smartphones_entity.canonical:
+  route_name: entity.smartphones_entity.canonical
+  base_route: entity.smartphones_entity.canonical
+  title: 'View'
+
+entity.smartphones_entity.edit_form:
+  route_name: entity.smartphones_entity.edit_form
+  base_route: entity.smartphones_entity.canonical
+  title: 'Edit'
+
+entity.smartphones_entity.version_history:
+  route_name: entity.smartphones_entity.version_history
+  base_route: entity.smartphones_entity.canonical
+  title: 'Revisions'
+
+entity.smartphones_entity.delete_form:
+  route_name:  entity.smartphones_entity.delete_form
+  base_route:  entity.smartphones_entity.canonical
+  title: Delete
+  weight: 10
